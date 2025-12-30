@@ -26,7 +26,7 @@ jobs:
       - name: Docs
         run: npm run docs
       - name: Publish docs
-        uses: JamesIves/github-pages-deploy-action@v6
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: docs
