@@ -1,0 +1,46 @@
+{
+  "name": "wmo4677",
+  "version": "0.0.1",
+  "description": "WMO4677 present weather codes, and associated metadata.",
+  "keywords": [
+    "openmeteo",
+    "wmo4677",
+    "wmo",
+    "4677",
+    "weather"
+  ],
+  "homepage": "https://github.com/jsau-/wmo4677#readme",
+  "bugs": {
+    "url": "https://github.com/jsau-/wmo4677/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsau-/wmo4677.git"
+  },
+  "license": "MIT",
+  "author": "Jon Saunders",
+  "engines": {
+    "node": ">= 20"
+  },
+  "type": "module",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.dist.json",
+    "docs": "rimraf docs && typedoc src/index.mts",
+    "lint": "eslint src",
+    "prettier:check": "prettier . --check",
+    "prettier:write": "prettier . --write",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.2",
+    "@types/node": "25.0.3",
+    "eslint": "9.39.2",
+    "prettier": "3.7.4",
+    "rimraf": "6.1.2",
+    "typedoc": "0.28.15",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.50.1",
+    "vitest": "4.0.16"
+  }
+}

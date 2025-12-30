@@ -1,0 +1,10 @@
+.gitattributes
+.github/**/*
+.gitignore
+.prettierrc
+eslint.config.mjs
+package-lock.json
+src/**/*
+tsconfig.json
+docs
+typedoc.json
