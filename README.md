@@ -27,6 +27,8 @@ This library aims to provide:
 - Support for the canonical WMO4677 code table, as well as [`openmeteo`'s own interpretations of the WMO
   present weather codes](https://open-meteo.com/en/docs#weather_variable_documentation). While you likely don't strictly need this library to deal with `openmeteo` as its representation is a much reduced subset you may find some value in the categorisations included.
 
+[Full documentation is available here.](https://jsau-.github.io/wmo4677)
+
 # Installation
 
 ```bash
