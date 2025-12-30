@@ -6,5 +6,6 @@ eslint.config.mjs
 package-lock.json
 src/**/*
 tsconfig.json
+tsconfig.dist.json
 docs
 typedoc.json
