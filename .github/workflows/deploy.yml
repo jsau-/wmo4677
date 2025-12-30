@@ -5,6 +5,7 @@ on:
       - master
 permissions:
   contents: write
+  id-token: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -34,5 +35,3 @@ jobs:
           folder: docs
       - name: Publish to NPM
         run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
